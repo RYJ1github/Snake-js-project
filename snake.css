@@ -32,6 +32,30 @@ body {
     justify-content: center;
   }
 
+  #tutorial {
+    margin-top: 20px;
+}
+
+#tutorial h2 {
+    font-size: 20px;
+}
+
+#tutorial p {
+    margin-bottom: 10px;
+}
+
+#tutorial ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#tutorial li {
+    margin-bottom: 5px;
+}
+
+.arrow {
+    font-size: 20px;
+}
 
 
 .startOverBtn {
