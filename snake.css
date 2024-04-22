@@ -1,62 +1,61 @@
-
 @font-face {
-    font-family: 'Rocher';
-    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
-  }
+  font-family: 'Rocher';
+  src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
 
 body {
-    font-family: 'Rocher';
-    text-align: center;
-    font-size: 50px;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+  font-family: 'Rocher';
+  text-align: center;
+  font-size: 30px;
+  height: 95vh; /* Adjusted height to accommodate larger game board */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-  h1 {
-    font-size: 100px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-  }
+h1 {
+  font-size: 60px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin-bottom: 20px; /* Added margin to separate the title from the game */
+}
 
-  .snakegame{
-    font-family: 'Rocher';
-    text-align: center;
-    font-size: 50px;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+.snakegame {
+  font-family: 'Rocher';
+  text-align: center;
+  font-size: 30px;
+  height: 60vh; /* Adjusted height to make the game board larger */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-  #tutorial {
-    margin-top: 20px;
+#tutorial {
+  margin-top: 10px; /* Adjust the margin */
 }
 
 #tutorial h2 {
-    font-size: 20px;
+  font-size: 15px; /* Adjust the font size */
 }
 
 #tutorial p {
-    margin-bottom: 10px;
+  margin-bottom: 5px; /* Adjust the margin */
 }
 
 #tutorial ul {
-    list-style-type: none;
-    padding-left: 0;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 #tutorial li {
-    margin-bottom: 5px;
+  margin-bottom: 3px; /* Adjust the margin */
 }
 
 .arrow {
-    font-size: 20px;
+  font-size: 16px; /* Adjust the font size */
 }
-
 
 .startOverBtn {
   align-items: center;
@@ -69,14 +68,14 @@ body {
   color: #fff;
   cursor: pointer;
   display: inline-flex;
-  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
   justify-content: center;
   line-height: 1.25;
   margin: 0;
-  min-height: 3rem;
-  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  min-height: 2rem; /* Adjust the height */
+  padding: calc(.75rem - 1px) calc(1rem - 1px); /* Adjust the padding */
   position: relative;
   text-decoration: none;
   transition: all 250ms;
