@@ -108,12 +108,8 @@ function update() {
         myScore += 1;
         var scoreDisplay = document.getElementById("scoreDisplay")
         scoreDisplay.textContent = myScore;
-        scoreDisplay.textContent = scores.join(", ");
     }
 
-    function resetScores() {
-        scores = [];
-    }
 
     for (let i = snakeBody.length - 1; i > 0; i--) {
         snakeBody[i] = snakeBody[i-1];
@@ -135,7 +131,6 @@ function update() {
         }
     }
 }
-
 
 
 function changeDirection(e) {
